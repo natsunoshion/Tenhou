@@ -1,0 +1,1729 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="event_id" attr.type="long" />
+  <key id="d2" for="edge" attr.name="verb" attr.type="string" />
+  <key id="d1" for="edge" attr.name="relation_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="C">
+      <data key="d0">person</data>
+    </node>
+    <node id="water">
+      <data key="d0">object</data>
+    </node>
+    <node id="bowl">
+      <data key="d0">object</data>
+    </node>
+    <node id="sponge">
+      <data key="d0">object</data>
+    </node>
+    <node id="tin">
+      <data key="d0">object</data>
+    </node>
+    <node id="food">
+      <data key="d0">object</data>
+    </node>
+    <node id="hands">
+      <data key="d0">object</data>
+    </node>
+    <node id="stick">
+      <data key="d0">object</data>
+    </node>
+    <node id="plate">
+      <data key="d0">object</data>
+    </node>
+    <node id="dish">
+      <data key="d0">object</data>
+    </node>
+    <node id="tray">
+      <data key="d0">object</data>
+    </node>
+    <node id="container">
+      <data key="d0">object</data>
+    </node>
+    <node id="lid">
+      <data key="d0">object</data>
+    </node>
+    <node id="carrot">
+      <data key="d0">object</data>
+    </node>
+    <node id="sink">
+      <data key="d0">object</data>
+    </node>
+    <node id="towel">
+      <data key="d0">object</data>
+    </node>
+    <node id="scrubs">
+      <data key="d0">object</data>
+    </node>
+    <node id="cloth">
+      <data key="d0">object</data>
+    </node>
+    <node id="basin">
+      <data key="d0">object</data>
+    </node>
+    <node id="washing">
+      <data key="d0">object</data>
+    </node>
+    <node id="pot">
+      <data key="d0">object</data>
+    </node>
+    <node id="tap">
+      <data key="d0">object</data>
+    </node>
+    <node id="turns">
+      <data key="d0">unknown</data>
+    </node>
+    <node id="dishwasher">
+      <data key="d0">object</data>
+    </node>
+    <node id="Wipes">
+      <data key="d0">object</data>
+    </node>
+    <node id="holder">
+      <data key="d0">object</data>
+    </node>
+    <node id="board">
+      <data key="d0">object</data>
+    </node>
+    <node id="cutting">
+      <data key="d0">object</data>
+    </node>
+    <node id="camera wearer">
+      <data key="d0">unknown</data>
+    </node>
+    <node id="bin">
+      <data key="d0">object</data>
+    </node>
+    <node id="plastic">
+      <data key="d0">object</data>
+    </node>
+    <node id="dustbin">
+      <data key="d0">object</data>
+    </node>
+    <node id="paper">
+      <data key="d0">object</data>
+    </node>
+    <node id="dirt">
+      <data key="d0">object</data>
+    </node>
+    <node id="knife">
+      <data key="d0">object</data>
+    </node>
+    <node id="kitchen">
+      <data key="d0">object</data>
+    </node>
+    <node id="spoon">
+      <data key="d0">object</data>
+    </node>
+    <node id="brush">
+      <data key="d0">object</data>
+    </node>
+    <node id="counter">
+      <data key="d0">object</data>
+    </node>
+    <node id="scissors">
+      <data key="d0">object</data>
+    </node>
+    <node id="whisk">
+      <data key="d0">object</data>
+    </node>
+    <node id="soap">
+      <data key="d0">object</data>
+    </node>
+    <node id="bottle">
+      <data key="d0">object</data>
+    </node>
+    <node id="cleaning">
+      <data key="d0">object</data>
+    </node>
+    <node id="spout">
+      <data key="d0">object</data>
+    </node>
+    <node id="glass">
+      <data key="d0">object</data>
+    </node>
+    <node id="cooking">
+      <data key="d0">object</data>
+    </node>
+    <node id="table">
+      <data key="d0">object</data>
+    </node>
+    <node id="hand">
+      <data key="d0">object</data>
+    </node>
+    <node id="edge">
+      <data key="d0">object</data>
+    </node>
+    <node id="slab">
+      <data key="d0">object</data>
+    </node>
+    <node id="right">
+      <data key="d0">object</data>
+    </node>
+    <node id="rack">
+      <data key="d0">object</data>
+    </node>
+    <node id="cup">
+      <data key="d0">object</data>
+    </node>
+    <node id="sprays">
+      <data key="d0">object</data>
+    </node>
+    <node id="bag">
+      <data key="d0">object</data>
+    </node>
+    <node id="cooker">
+      <data key="d0">object</data>
+    </node>
+    <edge source="C" target="water" id="0">
+      <data key="d1">action</data>
+      <data key="d2">pours</data>
+      <data key="d3">0</data>
+      <data key="d4">C pours the water from the bowl</data>
+    </edge>
+    <edge source="C" target="water" id="1">
+      <data key="d1">action</data>
+      <data key="d2">pours</data>
+      <data key="d3">15</data>
+      <data key="d4">C pours the water on the sink</data>
+    </edge>
+    <edge source="C" target="water" id="2">
+      <data key="d1">action</data>
+      <data key="d2">pours</data>
+      <data key="d3">98</data>
+      <data key="d4">C pours water from the glass</data>
+    </edge>
+    <edge source="C" target="water" id="3">
+      <data key="d1">action</data>
+      <data key="d2">pours</data>
+      <data key="d3">144</data>
+      <data key="d4">C pours water from the sink</data>
+    </edge>
+    <edge source="C" target="water" id="4">
+      <data key="d1">action</data>
+      <data key="d2">pours</data>
+      <data key="d3">170</data>
+      <data key="d4">C pours water from the soap</data>
+    </edge>
+    <edge source="C" target="bowl" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">1</data>
+      <data key="d4">C picks a bowl</data>
+    </edge>
+    <edge source="C" target="bowl" id="1">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">4</data>
+      <data key="d4">C cleans the bowl with the sponge.</data>
+    </edge>
+    <edge source="C" target="bowl" id="2">
+      <data key="d1">action</data>
+      <data key="d2">scrapes</data>
+      <data key="d3">7</data>
+      <data key="d4">C scrapes the bowl with the sponge</data>
+    </edge>
+    <edge source="C" target="bowl" id="3">
+      <data key="d1">action</data>
+      <data key="d2">drops</data>
+      <data key="d3">19</data>
+      <data key="d4">C drops the bowl</data>
+    </edge>
+    <edge source="C" target="bowl" id="4">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">80</data>
+      <data key="d4">C washes the bowl with the water</data>
+    </edge>
+    <edge source="C" target="bowl" id="5">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">100</data>
+      <data key="d4">C puts the bowl on the sink</data>
+    </edge>
+    <edge source="C" target="bowl" id="6">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">167</data>
+      <data key="d4">C cleans the small bowl.</data>
+    </edge>
+    <edge source="C" target="bowl" id="7">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">175</data>
+      <data key="d4">C picks a bowl</data>
+    </edge>
+    <edge source="C" target="tin" id="0">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">2</data>
+      <data key="d4">C washes the tin with the sponge</data>
+    </edge>
+    <edge source="C" target="food" id="0">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">3</data>
+      <data key="d4">C  washes food</data>
+    </edge>
+    <edge source="C" target="food" id="1">
+      <data key="d1">action</data>
+      <data key="d2">pours</data>
+      <data key="d3">6</data>
+      <data key="d4">C pours the food in the plate</data>
+    </edge>
+    <edge source="C" target="stick" id="0">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">5</data>
+      <data key="d4">C cleans the food stick with his hands</data>
+    </edge>
+    <edge source="C" target="dish" id="0">
+      <data key="d1">action</data>
+      <data key="d2">takes</data>
+      <data key="d3">8</data>
+      <data key="d4">C takes the dish</data>
+    </edge>
+    <edge source="C" target="dish" id="1">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">86</data>
+      <data key="d4">C washes the dish with the sponge</data>
+    </edge>
+    <edge source="C" target="dish" id="2">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">145</data>
+      <data key="d4">C washes the dish</data>
+    </edge>
+    <edge source="C" target="dish" id="3">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">168</data>
+      <data key="d4">C washes the dish</data>
+    </edge>
+    <edge source="C" target="tray" id="0">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">9</data>
+      <data key="d4">C washes the tray</data>
+    </edge>
+    <edge source="C" target="tray" id="1">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">16</data>
+      <data key="d4">C cleans the tray</data>
+    </edge>
+    <edge source="C" target="tray" id="2">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">18</data>
+      <data key="d4">C cleans the tray with the sponge</data>
+    </edge>
+    <edge source="C" target="tray" id="3">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">23</data>
+      <data key="d4">C washes a tray with a sponge</data>
+    </edge>
+    <edge source="C" target="tray" id="4">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">27</data>
+      <data key="d4">C washes the tray with the sponge</data>
+    </edge>
+    <edge source="C" target="tray" id="5">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">28</data>
+      <data key="d4">C washes the tray</data>
+    </edge>
+    <edge source="C" target="tray" id="6">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">29</data>
+      <data key="d4">C washes the tray</data>
+    </edge>
+    <edge source="C" target="tray" id="7">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">30</data>
+      <data key="d4">C washes the tray with a sponge</data>
+    </edge>
+    <edge source="C" target="tray" id="8">
+      <data key="d1">action</data>
+      <data key="d2">drops</data>
+      <data key="d3">33</data>
+      <data key="d4">C drops the tray</data>
+    </edge>
+    <edge source="C" target="tray" id="9">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">37</data>
+      <data key="d4">C washes the tray with sponge</data>
+    </edge>
+    <edge source="C" target="tray" id="10">
+      <data key="d1">action</data>
+      <data key="d2">lifts</data>
+      <data key="d3">49</data>
+      <data key="d4">C lifts the tray</data>
+    </edge>
+    <edge source="C" target="tray" id="11">
+      <data key="d1">action</data>
+      <data key="d2">scrubs</data>
+      <data key="d3">52</data>
+      <data key="d4">C scrubs the tray with the sponge</data>
+    </edge>
+    <edge source="C" target="tray" id="12">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">73</data>
+      <data key="d4">C picks the tray</data>
+    </edge>
+    <edge source="C" target="tray" id="13">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">142</data>
+      <data key="d4">C puts the sink tray in the sink</data>
+    </edge>
+    <edge source="C" target="container" id="0">
+      <data key="d1">action</data>
+      <data key="d2">scrubs</data>
+      <data key="d3">10</data>
+      <data key="d4">C scrubs the container with the sponge</data>
+    </edge>
+    <edge source="C" target="container" id="1">
+      <data key="d1">action</data>
+      <data key="d2">moves</data>
+      <data key="d3">153</data>
+      <data key="d4">C moves the container</data>
+    </edge>
+    <edge source="C" target="lid" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">11</data>
+      <data key="d4">C picks the dish lid</data>
+    </edge>
+    <edge source="C" target="lid" id="1">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">40</data>
+      <data key="d4">C puts the lid in the sink</data>
+    </edge>
+    <edge source="C" target="lid" id="2">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">79</data>
+      <data key="d4">C washes the lid</data>
+    </edge>
+    <edge source="C" target="lid" id="3">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">91</data>
+      <data key="d4">C washes the lid with the running water</data>
+    </edge>
+    <edge source="C" target="lid" id="4">
+      <data key="d1">action</data>
+      <data key="d2">drops</data>
+      <data key="d3">178</data>
+      <data key="d4">C drops the lid</data>
+    </edge>
+    <edge source="C" target="carrot" id="0">
+      <data key="d1">action</data>
+      <data key="d2">squeezes</data>
+      <data key="d3">12</data>
+      <data key="d4">C squeezes the carrot</data>
+    </edge>
+    <edge source="C" target="sponge" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">13</data>
+      <data key="d4">C picks up a sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="1">
+      <data key="d1">action</data>
+      <data key="d2">squeezes</data>
+      <data key="d3">21</data>
+      <data key="d4">C squeezes the sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="2">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">24</data>
+      <data key="d4">C cleans the  sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="3">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">34</data>
+      <data key="d4">C picks the sponge from the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="4">
+      <data key="d1">action</data>
+      <data key="d2">wipes</data>
+      <data key="d3">42</data>
+      <data key="d4">C wipes the sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="5">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">44</data>
+      <data key="d4">C puts the sponge in the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="6">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">54</data>
+      <data key="d4">C picks the sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="7">
+      <data key="d1">action</data>
+      <data key="d2">places</data>
+      <data key="d3">60</data>
+      <data key="d4">C places the sponge on the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="8">
+      <data key="d1">action</data>
+      <data key="d2">rinses</data>
+      <data key="d3">67</data>
+      <data key="d4">C rinses the sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="9">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">76</data>
+      <data key="d4">C picks the cleaning sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="10">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">77</data>
+      <data key="d4">C picks a sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="11">
+      <data key="d1">action</data>
+      <data key="d2">squeezes</data>
+      <data key="d3">81</data>
+      <data key="d4">C squeezes the sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="12">
+      <data key="d1">action</data>
+      <data key="d2">removes</data>
+      <data key="d3">88</data>
+      <data key="d4">C removes a sponge from the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="13">
+      <data key="d1">action</data>
+      <data key="d2">places</data>
+      <data key="d3">93</data>
+      <data key="d4">C places the sponge on the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="14">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">97</data>
+      <data key="d4">C washes the sponge with the sponge washing sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="15">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">103</data>
+      <data key="d4">C cleans the sponge with the sponge sponge sponge in his right hand.</data>
+    </edge>
+    <edge source="C" target="sponge" id="16">
+      <data key="d1">action</data>
+      <data key="d2">holds</data>
+      <data key="d3">105</data>
+      <data key="d4">C holds the sponge with his right hand.</data>
+    </edge>
+    <edge source="C" target="sponge" id="17">
+      <data key="d1">action</data>
+      <data key="d2">drops</data>
+      <data key="d3">107</data>
+      <data key="d4">C drops the sponge in his left hand on the edge of the chopping board.</data>
+    </edge>
+    <edge source="C" target="sponge" id="18">
+      <data key="d1">action</data>
+      <data key="d2">places</data>
+      <data key="d3">109</data>
+      <data key="d4">C places the sponge on the sink slab with his right hand.</data>
+    </edge>
+    <edge source="C" target="sponge" id="19">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">110</data>
+      <data key="d4">C picks a sponge from the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="20">
+      <data key="d1">action</data>
+      <data key="d2">turns</data>
+      <data key="d3">116</data>
+      <data key="d4">C turns the sponge to the right</data>
+    </edge>
+    <edge source="C" target="sponge" id="21">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">117</data>
+      <data key="d4">C picks a washing sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="22">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">120</data>
+      <data key="d4">C picks up a sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="23">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">121</data>
+      <data key="d4">C picks up the sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="24">
+      <data key="d1">action</data>
+      <data key="d2">moves</data>
+      <data key="d3">122</data>
+      <data key="d4">C moves the sponge on the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="25">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">126</data>
+      <data key="d4">C picks a sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="26">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">127</data>
+      <data key="d4">C puts the sponge on the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="27">
+      <data key="d1">action</data>
+      <data key="d2">places</data>
+      <data key="d3">129</data>
+      <data key="d4">C places the sponge on the sink.</data>
+    </edge>
+    <edge source="C" target="sponge" id="28">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">133</data>
+      <data key="d4">C puts the sponge on the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="29">
+      <data key="d1">action</data>
+      <data key="d2">drops</data>
+      <data key="d3">135</data>
+      <data key="d4">C drops the sponge on the sink slab with her right hand</data>
+    </edge>
+    <edge source="C" target="sponge" id="30">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">137</data>
+      <data key="d4">C puts the sponge on the sink.</data>
+    </edge>
+    <edge source="C" target="sponge" id="31">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">139</data>
+      <data key="d4">C picks a sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="32">
+      <data key="d1">action</data>
+      <data key="d2">turns</data>
+      <data key="d3">148</data>
+      <data key="d4">C turns the sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="33">
+      <data key="d1">action</data>
+      <data key="d2">moves</data>
+      <data key="d3">151</data>
+      <data key="d4">C moves the sponge on the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="34">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">157</data>
+      <data key="d4">C picks a sponge</data>
+    </edge>
+    <edge source="C" target="sponge" id="35">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">159</data>
+      <data key="d4">C puts the sponge in the sink</data>
+    </edge>
+    <edge source="C" target="sponge" id="36">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">171</data>
+      <data key="d4">C cleans the sponge</data>
+    </edge>
+    <edge source="C" target="plate" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">14</data>
+      <data key="d4">C picks the plate</data>
+    </edge>
+    <edge source="C" target="plate" id="1">
+      <data key="d1">action</data>
+      <data key="d2">rinses</data>
+      <data key="d3">82</data>
+      <data key="d4">C rinses the plate with water</data>
+    </edge>
+    <edge source="C" target="plate" id="2">
+      <data key="d1">action</data>
+      <data key="d2">rinses</data>
+      <data key="d3">83</data>
+      <data key="d4">C rinses the plate with water.</data>
+    </edge>
+    <edge source="C" target="plate" id="3">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">84</data>
+      <data key="d4">C picks the plate</data>
+    </edge>
+    <edge source="C" target="plate" id="4">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">87</data>
+      <data key="d4">C washes the plate</data>
+    </edge>
+    <edge source="C" target="plate" id="5">
+      <data key="d1">action</data>
+      <data key="d2">scrubs</data>
+      <data key="d3">89</data>
+      <data key="d4">C scrubs the plate with the sponge</data>
+    </edge>
+    <edge source="C" target="plate" id="6">
+      <data key="d1">action</data>
+      <data key="d2">rinses</data>
+      <data key="d3">90</data>
+      <data key="d4">C rinses the plate with water</data>
+    </edge>
+    <edge source="C" target="towel" id="0">
+      <data key="d1">action</data>
+      <data key="d2">squeezes</data>
+      <data key="d3">17</data>
+      <data key="d4">C squeezes the towel</data>
+    </edge>
+    <edge source="C" target="towel" id="1">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">71</data>
+      <data key="d4">C picks a towel</data>
+    </edge>
+    <edge source="C" target="towel" id="2">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">119</data>
+      <data key="d4">C puts the towel on the sink</data>
+    </edge>
+    <edge source="C" target="cloth" id="0">
+      <data key="d1">action</data>
+      <data key="d2">squeezes</data>
+      <data key="d3">22</data>
+      <data key="d4">C squeezes the cloth</data>
+    </edge>
+    <edge source="C" target="cloth" id="1">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">31</data>
+      <data key="d4">C puts the cloth down</data>
+    </edge>
+    <edge source="C" target="cloth" id="2">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">140</data>
+      <data key="d4">C picks the cloth</data>
+    </edge>
+    <edge source="C" target="sink" id="0">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">25</data>
+      <data key="d4">C cleans the sink</data>
+    </edge>
+    <edge source="C" target="sink" id="1">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">36</data>
+      <data key="d4">C cleans the sink with the sponge</data>
+    </edge>
+    <edge source="C" target="sink" id="2">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">41</data>
+      <data key="d4">C washes the sink with the sponge</data>
+    </edge>
+    <edge source="C" target="sink" id="3">
+      <data key="d1">action</data>
+      <data key="d2">wipes</data>
+      <data key="d3">47</data>
+      <data key="d4">C wipes the sink</data>
+    </edge>
+    <edge source="C" target="sink" id="4">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">59</data>
+      <data key="d4">C cleans the sink with sponge</data>
+    </edge>
+    <edge source="C" target="sink" id="5">
+      <data key="d1">action</data>
+      <data key="d2">shakes</data>
+      <data key="d3">61</data>
+      <data key="d4">C shakes the sink</data>
+    </edge>
+    <edge source="C" target="sink" id="6">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">66</data>
+      <data key="d4">C cleans the sink with a kitchen towel</data>
+    </edge>
+    <edge source="C" target="sink" id="7">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">85</data>
+      <data key="d4">C washes the sink with the sponge</data>
+    </edge>
+    <edge source="C" target="sink" id="8">
+      <data key="d1">action</data>
+      <data key="d2">wipes</data>
+      <data key="d3">130</data>
+      <data key="d4">C wipes the sink with a sponge</data>
+    </edge>
+    <edge source="C" target="sink" id="9">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">141</data>
+      <data key="d4">C puts the sink down</data>
+    </edge>
+    <edge source="C" target="sink" id="10">
+      <data key="d1">action</data>
+      <data key="d2">holds</data>
+      <data key="d3">149</data>
+      <data key="d4">C holds the sink</data>
+    </edge>
+    <edge source="C" target="sink" id="11">
+      <data key="d1">action</data>
+      <data key="d2">closes</data>
+      <data key="d3">155</data>
+      <data key="d4">C closes the sink</data>
+    </edge>
+    <edge source="C" target="basin" id="0">
+      <data key="d1">action</data>
+      <data key="d2">holds</data>
+      <data key="d3">26</data>
+      <data key="d4">C holds the washing basin</data>
+    </edge>
+    <edge source="C" target="basin" id="1">
+      <data key="d1">action</data>
+      <data key="d2">drops</data>
+      <data key="d3">150</data>
+      <data key="d4">C drops the basin</data>
+    </edge>
+    <edge source="C" target="pot" id="0">
+      <data key="d1">action</data>
+      <data key="d2">moves</data>
+      <data key="d3">32</data>
+      <data key="d4">C moves the pot</data>
+    </edge>
+    <edge source="C" target="pot" id="1">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">99</data>
+      <data key="d4">C picks a cooking pot</data>
+    </edge>
+    <edge source="C" target="pot" id="2">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">154</data>
+      <data key="d4">C  puts the pot on the rack</data>
+    </edge>
+    <edge source="C" target="pot" id="3">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">177</data>
+      <data key="d4">C puts cooking pot on the cooker</data>
+    </edge>
+    <edge source="C" target="tap" id="0">
+      <data key="d1">action</data>
+      <data key="d2">closes</data>
+      <data key="d3">38</data>
+      <data key="d4">C closes the tap</data>
+    </edge>
+    <edge source="C" target="tap" id="1">
+      <data key="d1">action</data>
+      <data key="d2">adjusts</data>
+      <data key="d3">78</data>
+      <data key="d4">C adjusts the tap</data>
+    </edge>
+    <edge source="C" target="tap" id="2">
+      <data key="d1">action</data>
+      <data key="d2">moves</data>
+      <data key="d3">138</data>
+      <data key="d4">C moves a tap</data>
+    </edge>
+    <edge source="C" target="tap" id="3">
+      <data key="d1">action</data>
+      <data key="d2">closes</data>
+      <data key="d3">143</data>
+      <data key="d4">C closes the tap</data>
+    </edge>
+    <edge source="C" target="tap" id="4">
+      <data key="d1">action</data>
+      <data key="d2">closes</data>
+      <data key="d3">173</data>
+      <data key="d4">C closes the tap</data>
+    </edge>
+    <edge source="C" target="dishwasher" id="0">
+      <data key="d1">action</data>
+      <data key="d2">pushes</data>
+      <data key="d3">39</data>
+      <data key="d4">C pushes the dishwasher</data>
+    </edge>
+    <edge source="C" target="dishwasher" id="1">
+      <data key="d1">action</data>
+      <data key="d2">wipes</data>
+      <data key="d3">46</data>
+      <data key="d4">C wipes the dishwasher</data>
+    </edge>
+    <edge source="C" target="board" id="0">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">48</data>
+      <data key="d4">C cleans the board with the sponge</data>
+    </edge>
+    <edge source="C" target="board" id="1">
+      <data key="d1">action</data>
+      <data key="d2">scrubs</data>
+      <data key="d3">50</data>
+      <data key="d4">C scrubs the chopping board with a sponge</data>
+    </edge>
+    <edge source="C" target="board" id="2">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">51</data>
+      <data key="d4">C cleans the chopping board with the sponge</data>
+    </edge>
+    <edge source="C" target="board" id="3">
+      <data key="d1">action</data>
+      <data key="d2">scrubs</data>
+      <data key="d3">53</data>
+      <data key="d4">C scrubs the chopping board with a sponge</data>
+    </edge>
+    <edge source="C" target="board" id="4">
+      <data key="d1">action</data>
+      <data key="d2">rinses</data>
+      <data key="d3">55</data>
+      <data key="d4">C rinses the cutting board</data>
+    </edge>
+    <edge source="C" target="board" id="5">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">57</data>
+      <data key="d4">C washes the chopping board with the sponge</data>
+    </edge>
+    <edge source="C" target="board" id="6">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">58</data>
+      <data key="d4">C washes the cutting board</data>
+    </edge>
+    <edge source="C" target="board" id="7">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">101</data>
+      <data key="d4">C picks a chopping board from the sink table</data>
+    </edge>
+    <edge source="C" target="board" id="8">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">102</data>
+      <data key="d4">C picks a chopping board from the sink</data>
+    </edge>
+    <edge source="C" target="board" id="9">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">104</data>
+      <data key="d4">C picks a cutting board</data>
+    </edge>
+    <edge source="C" target="board" id="10">
+      <data key="d1">action</data>
+      <data key="d2">scrubs</data>
+      <data key="d3">106</data>
+      <data key="d4">C scrubs the chopping board with a sponge</data>
+    </edge>
+    <edge source="C" target="board" id="11">
+      <data key="d1">action</data>
+      <data key="d2">wipes</data>
+      <data key="d3">108</data>
+      <data key="d4">C wipes the board</data>
+    </edge>
+    <edge source="C" target="board" id="12">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">111</data>
+      <data key="d4">C picks the chopping board</data>
+    </edge>
+    <edge source="C" target="board" id="13">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">112</data>
+      <data key="d4">C washes the chopping board with the sponge sponge</data>
+    </edge>
+    <edge source="C" target="board" id="14">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">114</data>
+      <data key="d4">C picks the chopping board</data>
+    </edge>
+    <edge source="C" target="board" id="15">
+      <data key="d1">action</data>
+      <data key="d2">turns</data>
+      <data key="d3">115</data>
+      <data key="d4">C turns the chopping board</data>
+    </edge>
+    <edge source="C" target="board" id="16">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">123</data>
+      <data key="d4">C puts the board on the sink counter</data>
+    </edge>
+    <edge source="C" target="board" id="17">
+      <data key="d1">action</data>
+      <data key="d2">holds</data>
+      <data key="d3">124</data>
+      <data key="d4">C holds the chopping board</data>
+    </edge>
+    <edge source="C" target="board" id="18">
+      <data key="d1">action</data>
+      <data key="d2">turns</data>
+      <data key="d3">125</data>
+      <data key="d4">C turns the chopping board</data>
+    </edge>
+    <edge source="C" target="board" id="19">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">128</data>
+      <data key="d4">C cleans the chopping board with the sponge.</data>
+    </edge>
+    <edge source="C" target="board" id="20">
+      <data key="d1">action</data>
+      <data key="d2">scrubs</data>
+      <data key="d3">131</data>
+      <data key="d4">C scrubs the cutting board</data>
+    </edge>
+    <edge source="C" target="board" id="21">
+      <data key="d1">action</data>
+      <data key="d2">scrubs</data>
+      <data key="d3">132</data>
+      <data key="d4">C scrubs the chopping board with a sponge</data>
+    </edge>
+    <edge source="C" target="board" id="22">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">136</data>
+      <data key="d4">C picks the cutting board</data>
+    </edge>
+    <edge source="C" target="board" id="23">
+      <data key="d1">action</data>
+      <data key="d2">turns</data>
+      <data key="d3">146</data>
+      <data key="d4">C turns the chopping board</data>
+    </edge>
+    <edge source="C" target="board" id="24">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">152</data>
+      <data key="d4">C puts the chopping board on the sink</data>
+    </edge>
+    <edge source="C" target="bin" id="0">
+      <data key="d1">action</data>
+      <data key="d2">closes</data>
+      <data key="d3">62</data>
+      <data key="d4">C closes the plastic bin</data>
+    </edge>
+    <edge source="C" target="paper" id="0">
+      <data key="d1">action</data>
+      <data key="d2">removes</data>
+      <data key="d3">63</data>
+      <data key="d4">C removes the paper from the dustbin</data>
+    </edge>
+    <edge source="C" target="dirt" id="0">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">64</data>
+      <data key="d4">C puts the dirt in the sink</data>
+    </edge>
+    <edge source="C" target="knife" id="0">
+      <data key="d1">action</data>
+      <data key="d2">removes</data>
+      <data key="d3">65</data>
+      <data key="d4">C removes the knife from the board.</data>
+    </edge>
+    <edge source="C" target="spoon" id="0">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">68</data>
+      <data key="d4">C washes the spoon</data>
+    </edge>
+    <edge source="C" target="brush" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">69</data>
+      <data key="d4">C picks a washing brush</data>
+    </edge>
+    <edge source="C" target="scissors" id="0">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">70</data>
+      <data key="d4">C puts the scissors on the kitchen counter</data>
+    </edge>
+    <edge source="C" target="whisk" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">72</data>
+      <data key="d4">C picks a whisk</data>
+    </edge>
+    <edge source="C" target="bottle" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">74</data>
+      <data key="d4">C picks the soap bottle</data>
+    </edge>
+    <edge source="C" target="bottle" id="1">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">75</data>
+      <data key="d4">C puts the soap bottle on the sink</data>
+    </edge>
+    <edge source="C" target="bottle" id="2">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">118</data>
+      <data key="d4">C picks the soap bottle from the counter</data>
+    </edge>
+    <edge source="C" target="bottle" id="3">
+      <data key="d1">action</data>
+      <data key="d2">puts</data>
+      <data key="d3">134</data>
+      <data key="d4">C puts the soap bottle on the sink</data>
+    </edge>
+    <edge source="C" target="bottle" id="4">
+      <data key="d1">action</data>
+      <data key="d2">takes</data>
+      <data key="d3">160</data>
+      <data key="d4">C takes a soap bottle</data>
+    </edge>
+    <edge source="C" target="bottle" id="5">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">162</data>
+      <data key="d4">C picks a soap bottle</data>
+    </edge>
+    <edge source="C" target="bottle" id="6">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">169</data>
+      <data key="d4">C washes the bottle</data>
+    </edge>
+    <edge source="C" target="bottle" id="7">
+      <data key="d1">action</data>
+      <data key="d2">opens</data>
+      <data key="d3">179</data>
+      <data key="d4">C opens the soap bottle</data>
+    </edge>
+    <edge source="C" target="spout" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">94</data>
+      <data key="d4">C picks a sink spout</data>
+    </edge>
+    <edge source="C" target="soap" id="0">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">96</data>
+      <data key="d4">C picks up a soap</data>
+    </edge>
+    <edge source="C" target="soap" id="1">
+      <data key="d1">action</data>
+      <data key="d2">pours</data>
+      <data key="d3">147</data>
+      <data key="d4">C pours the liquid soap on the sink</data>
+    </edge>
+    <edge source="C" target="cup" id="0">
+      <data key="d1">action</data>
+      <data key="d2">drops</data>
+      <data key="d3">156</data>
+      <data key="d4">C drops the cup on the kitchen slab</data>
+    </edge>
+    <edge source="C" target="cup" id="1">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">163</data>
+      <data key="d4">C cleans the cup</data>
+    </edge>
+    <edge source="C" target="cup" id="2">
+      <data key="d1">action</data>
+      <data key="d2">picks</data>
+      <data key="d3">174</data>
+      <data key="d4">C picks a cup</data>
+    </edge>
+    <edge source="C" target="glass" id="0">
+      <data key="d1">action</data>
+      <data key="d2">wipes</data>
+      <data key="d3">158</data>
+      <data key="d4">C wipes the glass with a sponge</data>
+    </edge>
+    <edge source="C" target="glass" id="1">
+      <data key="d1">action</data>
+      <data key="d2">cleans</data>
+      <data key="d3">164</data>
+      <data key="d4">C cleans the glass with the sponge</data>
+    </edge>
+    <edge source="C" target="glass" id="2">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">165</data>
+      <data key="d4">C washes the glass</data>
+    </edge>
+    <edge source="C" target="glass" id="3">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">166</data>
+      <data key="d4">C washes the glass with the sponge</data>
+    </edge>
+    <edge source="C" target="hand" id="0">
+      <data key="d1">action</data>
+      <data key="d2">washes</data>
+      <data key="d3">172</data>
+      <data key="d4">C washes the hand</data>
+    </edge>
+    <edge source="water" target="bowl" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">0</data>
+      <data key="d4">C pours the water from the bowl</data>
+    </edge>
+    <edge source="water" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">15</data>
+      <data key="d4">C pours the water on the sink</data>
+    </edge>
+    <edge source="water" target="sink" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">144</data>
+      <data key="d4">C pours water from the sink</data>
+    </edge>
+    <edge source="water" target="glass" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">98</data>
+      <data key="d4">C pours water from the glass</data>
+    </edge>
+    <edge source="water" target="soap" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">170</data>
+      <data key="d4">C pours water from the soap</data>
+    </edge>
+    <edge source="bowl" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">4</data>
+      <data key="d4">C cleans the bowl with the sponge.</data>
+    </edge>
+    <edge source="bowl" target="sponge" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">7</data>
+      <data key="d4">C scrapes the bowl with the sponge</data>
+    </edge>
+    <edge source="bowl" target="water" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">80</data>
+      <data key="d4">C washes the bowl with the water</data>
+    </edge>
+    <edge source="bowl" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">100</data>
+      <data key="d4">C puts the bowl on the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">34</data>
+      <data key="d4">C picks the sponge from the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">in</data>
+      <data key="d3">44</data>
+      <data key="d4">C puts the sponge in the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="2">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">60</data>
+      <data key="d4">C places the sponge on the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="3">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">88</data>
+      <data key="d4">C removes a sponge from the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="4">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">93</data>
+      <data key="d4">C places the sponge on the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="5">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">110</data>
+      <data key="d4">C picks a sponge from the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="6">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">122</data>
+      <data key="d4">C moves the sponge on the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="7">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">127</data>
+      <data key="d4">C puts the sponge on the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="8">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">129</data>
+      <data key="d4">C places the sponge on the sink.</data>
+    </edge>
+    <edge source="sponge" target="sink" id="9">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">133</data>
+      <data key="d4">C puts the sponge on the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="10">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">137</data>
+      <data key="d4">C puts the sponge on the sink.</data>
+    </edge>
+    <edge source="sponge" target="sink" id="11">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">151</data>
+      <data key="d4">C moves the sponge on the sink</data>
+    </edge>
+    <edge source="sponge" target="sink" id="12">
+      <data key="d1">prepositional</data>
+      <data key="d2">in</data>
+      <data key="d3">159</data>
+      <data key="d4">C puts the sponge in the sink</data>
+    </edge>
+    <edge source="sponge" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">97</data>
+      <data key="d4">C washes the sponge with the sponge washing sponge</data>
+    </edge>
+    <edge source="sponge" target="sponge" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">103</data>
+      <data key="d4">C cleans the sponge with the sponge sponge sponge in his right hand.</data>
+    </edge>
+    <edge source="sponge" target="hand" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">in</data>
+      <data key="d3">103</data>
+      <data key="d4">C cleans the sponge with the sponge sponge sponge in his right hand.</data>
+    </edge>
+    <edge source="sponge" target="hand" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">105</data>
+      <data key="d4">C holds the sponge with his right hand.</data>
+    </edge>
+    <edge source="sponge" target="hand" id="2">
+      <data key="d1">prepositional</data>
+      <data key="d2">in</data>
+      <data key="d3">107</data>
+      <data key="d4">C drops the sponge in his left hand on the edge of the chopping board.</data>
+    </edge>
+    <edge source="sponge" target="hand" id="3">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">109</data>
+      <data key="d4">C places the sponge on the sink slab with his right hand.</data>
+    </edge>
+    <edge source="sponge" target="hand" id="4">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">135</data>
+      <data key="d4">C drops the sponge on the sink slab with her right hand</data>
+    </edge>
+    <edge source="sponge" target="edge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">107</data>
+      <data key="d4">C drops the sponge in his left hand on the edge of the chopping board.</data>
+    </edge>
+    <edge source="sponge" target="slab" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">109</data>
+      <data key="d4">C places the sponge on the sink slab with his right hand.</data>
+    </edge>
+    <edge source="sponge" target="slab" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">135</data>
+      <data key="d4">C drops the sponge on the sink slab with her right hand</data>
+    </edge>
+    <edge source="sponge" target="right" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">to</data>
+      <data key="d3">116</data>
+      <data key="d4">C turns the sponge to the right</data>
+    </edge>
+    <edge source="tin" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">2</data>
+      <data key="d4">C washes the tin with the sponge</data>
+    </edge>
+    <edge source="food" target="plate" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">in</data>
+      <data key="d3">6</data>
+      <data key="d4">C pours the food in the plate</data>
+    </edge>
+    <edge source="stick" target="hands" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">5</data>
+      <data key="d4">C cleans the food stick with his hands</data>
+    </edge>
+    <edge source="plate" target="water" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">83</data>
+      <data key="d4">C rinses the plate with water.</data>
+    </edge>
+    <edge source="plate" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">89</data>
+      <data key="d4">C scrubs the plate with the sponge</data>
+    </edge>
+    <edge source="dish" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">86</data>
+      <data key="d4">C washes the dish with the sponge</data>
+    </edge>
+    <edge source="tray" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">18</data>
+      <data key="d4">C cleans the tray with the sponge</data>
+    </edge>
+    <edge source="tray" target="sponge" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">27</data>
+      <data key="d4">C washes the tray with the sponge</data>
+    </edge>
+    <edge source="tray" target="sponge" id="2">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">30</data>
+      <data key="d4">C washes the tray with a sponge</data>
+    </edge>
+    <edge source="tray" target="sponge" id="3">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">37</data>
+      <data key="d4">C washes the tray with sponge</data>
+    </edge>
+    <edge source="tray" target="sponge" id="4">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">52</data>
+      <data key="d4">C scrubs the tray with the sponge</data>
+    </edge>
+    <edge source="tray" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">in</data>
+      <data key="d3">142</data>
+      <data key="d4">C puts the sink tray in the sink</data>
+    </edge>
+    <edge source="container" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">10</data>
+      <data key="d4">C scrubs the container with the sponge</data>
+    </edge>
+    <edge source="lid" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">in</data>
+      <data key="d3">40</data>
+      <data key="d4">C puts the lid in the sink</data>
+    </edge>
+    <edge source="lid" target="water" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">91</data>
+      <data key="d4">C washes the lid with the running water</data>
+    </edge>
+    <edge source="sink" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">36</data>
+      <data key="d4">C cleans the sink with the sponge</data>
+    </edge>
+    <edge source="sink" target="sponge" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">41</data>
+      <data key="d4">C washes the sink with the sponge</data>
+    </edge>
+    <edge source="sink" target="sponge" id="2">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">59</data>
+      <data key="d4">C cleans the sink with sponge</data>
+    </edge>
+    <edge source="sink" target="sponge" id="3">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">85</data>
+      <data key="d4">C washes the sink with the sponge</data>
+    </edge>
+    <edge source="sink" target="sponge" id="4">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">130</data>
+      <data key="d4">C wipes the sink with a sponge</data>
+    </edge>
+    <edge source="sink" target="towel" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">66</data>
+      <data key="d4">C cleans the sink with a kitchen towel</data>
+    </edge>
+    <edge source="towel" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">119</data>
+      <data key="d4">C puts the towel on the sink</data>
+    </edge>
+    <edge source="pot" target="rack" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">154</data>
+      <data key="d4">C  puts the pot on the rack</data>
+    </edge>
+    <edge source="pot" target="cooker" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">177</data>
+      <data key="d4">C puts cooking pot on the cooker</data>
+    </edge>
+    <edge source="turns" target="tap" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">35</data>
+      <data key="d4">C turns on tap</data>
+    </edge>
+    <edge source="turns" target="tap" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">92</data>
+      <data key="d4">C turns on the tap</data>
+    </edge>
+    <edge source="turns" target="tap" id="2">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">95</data>
+      <data key="d4">C turns on the tap</data>
+    </edge>
+    <edge source="board" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">48</data>
+      <data key="d4">C cleans the board with the sponge</data>
+    </edge>
+    <edge source="board" target="sponge" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">50</data>
+      <data key="d4">C scrubs the chopping board with a sponge</data>
+    </edge>
+    <edge source="board" target="sponge" id="2">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">51</data>
+      <data key="d4">C cleans the chopping board with the sponge</data>
+    </edge>
+    <edge source="board" target="sponge" id="3">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">53</data>
+      <data key="d4">C scrubs the chopping board with a sponge</data>
+    </edge>
+    <edge source="board" target="sponge" id="4">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">56</data>
+      <data key="d4">C scrubs chopping board with the sponge</data>
+    </edge>
+    <edge source="board" target="sponge" id="5">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">57</data>
+      <data key="d4">C washes the chopping board with the sponge</data>
+    </edge>
+    <edge source="board" target="sponge" id="6">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">106</data>
+      <data key="d4">C scrubs the chopping board with a sponge</data>
+    </edge>
+    <edge source="board" target="sponge" id="7">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">113</data>
+      <data key="d4">C washes chopping board with sponge</data>
+    </edge>
+    <edge source="board" target="sponge" id="8">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">128</data>
+      <data key="d4">C cleans the chopping board with the sponge.</data>
+    </edge>
+    <edge source="board" target="sponge" id="9">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">132</data>
+      <data key="d4">C scrubs the chopping board with a sponge</data>
+    </edge>
+    <edge source="board" target="table" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">101</data>
+      <data key="d4">C picks a chopping board from the sink table</data>
+    </edge>
+    <edge source="board" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">102</data>
+      <data key="d4">C picks a chopping board from the sink</data>
+    </edge>
+    <edge source="board" target="sink" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">152</data>
+      <data key="d4">C puts the chopping board on the sink</data>
+    </edge>
+    <edge source="board" target="counter" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">123</data>
+      <data key="d4">C puts the board on the sink counter</data>
+    </edge>
+    <edge source="camera wearer" target="board" id="0">
+      <data key="d1">action</data>
+      <data key="d2">chopping</data>
+      <data key="d3">56</data>
+      <data key="d4">C scrubs chopping board with the sponge</data>
+    </edge>
+    <edge source="camera wearer" target="board" id="1">
+      <data key="d1">action</data>
+      <data key="d2">chopping</data>
+      <data key="d3">113</data>
+      <data key="d4">C washes chopping board with sponge</data>
+    </edge>
+    <edge source="paper" target="dustbin" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">63</data>
+      <data key="d4">C removes the paper from the dustbin</data>
+    </edge>
+    <edge source="dirt" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">in</data>
+      <data key="d3">64</data>
+      <data key="d4">C puts the dirt in the sink</data>
+    </edge>
+    <edge source="knife" target="board" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">65</data>
+      <data key="d4">C removes the knife from the board.</data>
+    </edge>
+    <edge source="scissors" target="counter" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">70</data>
+      <data key="d4">C puts the scissors on the kitchen counter</data>
+    </edge>
+    <edge source="soap" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">147</data>
+      <data key="d4">C pours the liquid soap on the sink</data>
+    </edge>
+    <edge source="bottle" target="sink" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">75</data>
+      <data key="d4">C puts the soap bottle on the sink</data>
+    </edge>
+    <edge source="bottle" target="sink" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">134</data>
+      <data key="d4">C puts the soap bottle on the sink</data>
+    </edge>
+    <edge source="bottle" target="counter" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">from</data>
+      <data key="d3">118</data>
+      <data key="d4">C picks the soap bottle from the counter</data>
+    </edge>
+    <edge source="glass" target="sponge" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">158</data>
+      <data key="d4">C wipes the glass with a sponge</data>
+    </edge>
+    <edge source="glass" target="sponge" id="1">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">164</data>
+      <data key="d4">C cleans the glass with the sponge</data>
+    </edge>
+    <edge source="glass" target="sponge" id="2">
+      <data key="d1">prepositional</data>
+      <data key="d2">with</data>
+      <data key="d3">166</data>
+      <data key="d4">C washes the glass with the sponge</data>
+    </edge>
+    <edge source="cup" target="slab" id="0">
+      <data key="d1">prepositional</data>
+      <data key="d2">on</data>
+      <data key="d3">156</data>
+      <data key="d4">C drops the cup on the kitchen slab</data>
+    </edge>
+  </graph>
+</graphml>
